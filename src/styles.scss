@@ -49,7 +49,7 @@ $maqueta-theme: mat-light-theme((
 // Define a custom typography config that overrides the font-family as well as the
 // `headlines` and `body-1` levels.
 $custom-typography: mat-typography-config(
-  $font-family: 'TeleNeoWeb',
+  $font-family: 'Roboto',
   $headline: mat-typography-level(32px, 48px, 700),
   $body-1: mat-typography-level(16px, 24px, 500)
 );
@@ -59,4 +59,4 @@ $custom-typography: mat-typography-config(
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: TeleNeoWeb; }
+body { margin: 0; font-family: Roboto; }
